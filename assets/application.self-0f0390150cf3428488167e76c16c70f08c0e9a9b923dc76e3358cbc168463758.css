@@ -6369,7 +6369,7 @@ abbr[title] {
 
 /* line 4, /Users/amos/code/identity/app/assets/stylesheets/components/_alert.scss */
 .alert {
-  background-color: #ecfcff;
+  background-color: #ebf3fa;
   border-radius: 0.5rem;
   color: #5b616a;
   font-size: 1rem;
@@ -6430,15 +6430,6 @@ abbr[title] {
 /* line 52, /Users/amos/code/identity/app/assets/stylesheets/components/_alert.scss */
 .alert-warning::before {
   background-image: url("/assets/alert/warning-9258c17ae1be021f6f7dbf2b93ceb031aba906c64bc1f3edc737a0c92eb29e73.svg");
-}
-
-/* line 55, /Users/amos/code/identity/app/assets/stylesheets/components/_alert.scss */
-.alert-notice {
-  padding-left: 3rem;
-}
-/* line 57, /Users/amos/code/identity/app/assets/stylesheets/components/_alert.scss */
-.alert-notice::before {
-  background-image: url("/assets/alert/notice-579947f48a0b745ce270f392dcc441a489b56c7bcea0ffbda2a7cefa7b41ab89.svg");
 }
 
 /* line 1, /Users/amos/code/identity/app/assets/stylesheets/components/_background.scss */
@@ -6626,14 +6617,6 @@ abbr[title] {
   .card {
     border-radius: 5px;
   }
-  /* line 15, /Users/amos/code/identity/app/assets/stylesheets/components/_card.scss */
-  .card-wide {
-    margin-top: 3rem;
-    max-width: 100%;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 @media (min-width: 40em) {
@@ -6649,20 +6632,14 @@ abbr[title] {
 
 /* line 2, /Users/amos/code/identity/app/assets/stylesheets/components/_container.scss */
 .cntnr-xskinny {
-  max-width: 416px;
+  max-width: 540px;
 }
 
 /* line 3, /Users/amos/code/identity/app/assets/stylesheets/components/_container.scss */
 .cntnr-xxskinny {
-  max-width: 296px;
+  max-width: 396px;
 }
 
-@media (min-width: 40em) {
-  /* line 6, /Users/amos/code/identity/app/assets/stylesheets/components/_container.scss */
-  .cntnr-xxskinny {
-    max-width: 416px;
-  }
-}
 /* line 6, /Users/amos/code/identity/app/assets/stylesheets/components/_footer.scss */
 html {
   height: 100%;
@@ -7138,7 +7115,7 @@ input::-webkit-inner-spin-button {
   content: '';
   display: block;
   height: 48px;
-  margin: 1rem auto 2rem;
+  margin: 0 auto;
   position: relative;
   width: 48px;
 }
@@ -7166,29 +7143,20 @@ input::-webkit-inner-spin-button {
 }
 
 /* line 100, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
-.modal-timeout::before {
-  background-image: url("/assets/clock-6d4ea0b579ec5d98e3853f9d0f1775944de8c0c241f5da277910d22728fc5718.svg");
-}
-/* line 104, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
-.modal-timeout hr {
-  border-color: #00bfe7;
-}
-
-/* line 110, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
 .modal-warning::before {
   background-image: url("/assets/alert/warning-lg-c8b59e1c43c61757894a52d052b7fb65fa89ae22732f268efcc144a0e187b936.svg");
 }
-/* line 114, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
+/* line 104, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
 .modal-warning .btn-wide,
 .modal-warning hr {
   border-color: #e1ce28;
 }
 
-/* line 121, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
+/* line 111, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
 .modal-fail::before {
   background-image: url("/assets/alert/fail-lg-342a607c18ec3b39eb1e52a90d5518b0041e4f33a31beb259170fe1db500d8b9.svg");
 }
-/* line 125, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
+/* line 115, /Users/amos/code/identity/app/assets/stylesheets/components/_modal.scss */
 .modal-fail hr,
 .modal-fail .btn {
   border-color: #eb4d67;
@@ -7280,38 +7248,26 @@ input::-webkit-inner-spin-button {
     margin-bottom: 2rem;
   }
 }
-/* line 1, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
-.key-badge::before {
-  background-image: url("/assets/p-key-9cc471ceab9a684010a778ef1e55739b03d17597c4d7617d9750c50cf3bdfecb.svg");
-  background-repeat: no-repeat;
-  content: '';
-  height: 60px;
-  left: 45%;
-  position: absolute;
-  top: -25px;
-  width: 60px;
-}
-
-/* line 13, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
+/* line 2, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
 .separator-text > div::after {
   color: #d9dadb;
   content: '-';
   padding: 0 .25rem;
 }
-/* line 19, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
+/* line 8, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
 .separator-text > div:last-child::after {
   content: none;
   padding: 0;
 }
 
-/* line 25, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
+/* line 14, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
 .ico-scissors {
   left: -5px;
   top: -14px;
 }
 
 @media (min-width: 40em) {
-  /* line 32, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
+  /* line 21, /Users/amos/code/identity/app/assets/stylesheets/components/_personal-key.scss */
   .separator-text > div::after {
     padding: 0 .5rem;
   }
@@ -7520,44 +7476,34 @@ input::-webkit-inner-spin-button {
   vertical-align: middle;
 }
 
-/* line 22, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+/* line 23, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
 .block-center {
   margin: 0 auto;
 }
 
-/* line 26, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
-.js-fallback {
-  display: none;
-}
-
-/* line 31, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
-.no-js .js-fallback {
-  display: block;
-}
-
-/* line 36, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+/* line 27, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
 .scale-down {
   backface-visibility: hidden;
   transform: scale(0.7);
 }
 
 @media (min-width: 40em) {
-  /* line 44, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+  /* line 35, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
   .sm-display-inline-block {
     display: inline-block !important;
   }
 
-  /* line 47, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+  /* line 38, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
   .sm-maxw-190p {
     max-width: 190px;
   }
 
-  /* line 49, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+  /* line 40, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
   .sm-left-align {
     text-align: left;
   }
 
-  /* line 50, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
+  /* line 41, /Users/amos/code/identity/app/assets/stylesheets/components/_util.scss */
   .sm-right-align {
     text-align: right;
   }
