@@ -1,0 +1,165 @@
+<!DOCTYPE html><html class="no-js" lang="en"><head><base href='/site/18f/identity-ux/' /><meta charset="utf-8" /><meta content="login.gov" name="description" /><meta content="IE=edge" http-equiv="X-UA-Compatible" /><meta content="none" name="msapplication-config" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta content="telephone=no" name="format-detection" /><title>login.gov - First, tell us about yourself</title><link rel="stylesheet" media="all" href="/site/18f/identity-ux/assets/application.self.css" /><!--[if IE 8]><script src="/site/18f/identity-ux/assets/es5-shim.min.self.js"></script><![endif]--><script src="/site/18f/identity-ux/assets/misc/i18n-strings.self.js"></script><script src="/site/18f/identity-ux/assets/application.self.js"></script><link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" /><link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="/manifest.json" rel="manifest" /><link color="#e21c3d" href="/safari-pinned-tab.svg" rel="mask-icon" /><meta content="#ffffff" name="theme-color" /><!--[if IE 9]><link rel="stylesheet" media="all" href="/site/18f/identity-ux/assets/ie9.self.css" /><![endif]--><!--[if lt IE 9]><script src="/site/18f/identity-ux/assets/html5shiv.self.js"></script><link rel="stylesheet" media="all" href="/site/18f/identity-ux/assets/ie8.self.css" /><script src="/site/18f/identity-ux/assets/respond.min.self.js"></script><![endif]--></head><body class="test-env site sm-bg-light-blue"><div class="site-wrap"><div class="py1 bg-maroon white fs-12p line-height-1 center">Do not use real personal information (demo purposes only)</div><div class="py1 bg-navy white fs-12p line-height-1 center"><img alt="US flag" class="mr1 align-bottom" src="/site/18f/identity-ux/assets/us-flag.png" width="18" height="12" />An official website of the United States government</div><nav class="nav-branded vertical-align bg-light-blue center relative"><img height="14" alt="login.gov" class="inline-block align-middle" src="/site/18f/identity-ux/assets/logo.svg" /><div class="px-12p inline-block"><span class="absolute top-0 bottom-0 border-right my1 sm-my2"></span></div><img height="40" alt="Test SP" class="inline-block align-middle" src="/site/18f/identity-ux/assets/sp-logos/generic.svg" /></nav><div class="container"><div class="px2 py2 sm-py5 sm-px6 mx-auto sm-mb5 border-box card "><div class="alert alert-warning" role="alert"><p class="mb2 fs-20p">We could not find records matching your personal information.</p><p class="">Please check the information you entered. Common mistakes are an incorrect Social Security Number, ZIP Code, or date of birth.</p><p class="">You have <strong>2 attempts remaining.</strong></p></div><h1 class="h3 my0">First, tell us about yourself</h1><form autocomplete="off" role="form" class="simple_form mt3 sm-mt4 new_profile" id="new_profile" action="/verify/session" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><fieldset class="mb3 ml0 p0 border-none"><legend class="col-12 mb3 pb-tiny border-bottom border-teal">Full name</legend><div class="mb3 string required profile_first_name"><label class="bold string required" for="profile_first_name"><abbr title="required" class="red display-none">*</abbr> First name</label><input class="block col-12 field string required" required="required" aria-required="true" type="text" value="Bad" name="profile[first_name]" id="profile_first_name" /></div><div class="mb3 string required profile_last_name"><label class="bold string required" for="profile_last_name"><abbr title="required" class="red display-none">*</abbr> Last name</label><input class="block col-12 field string required" required="required" aria-required="true" type="text" value="User" name="profile[last_name]" id="profile_last_name" /></div></fieldset><fieldset class="m0 p0 border-none"><legend class="col-12 mb3 pb-tiny border-bottom border-teal">Current address</legend><div class="mb3 string required profile_address1"><label class="bold string required" for="profile_address1"><abbr title="required" class="red display-none">*</abbr> Street address 1</label><input class="block col-12 field string required" required="required" aria-required="true" type="text" value="123 Main St" name="profile[address1]" id="profile_address1" /></div><div class="mb3 string optional profile_address2"><label class="bold string optional" for="profile_address2">Street address 2 (optional)</label><input class="block col-12 field string optional" type="text" value="" name="profile[address2]" id="profile_address2" /></div><div class="mb3 string required profile_city"><label class="bold string required" for="profile_city"><abbr title="required" class="red display-none">*</abbr> City</label><input class="block col-12 field string required" required="required" aria-required="true" type="text" value="Nowhere" name="profile[city]" id="profile_city" /></div><div class="clearfix mxn1"><div class="sm-col sm-col-6 px1"><div class="mb3 select required profile_state"><label class="bold select required" for="profile_state"><abbr title="required" class="red display-none">*</abbr> State</label><select class="block col-12 field select required" required="required" aria-required="true" name="profile[state]" id="profile_state"><option value=""></option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AS">American Samoa</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="AA">Armed Forces Americas</option>
+<option value="AE">Armed Forces Others</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option selected="selected" value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VI">Virgin Islands</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select></div></div><div class="sm-col sm-col-4 px1"><div class="mb3 tel required profile_zipcode"><label class="bold tel required" for="profile_zipcode"><abbr title="required" class="red display-none">*</abbr> ZIP Code</label><input class="block col-12 field string tel required zipcode" value="00000" required="required" aria-required="true" pattern="(\d{5}([\-]\d{4})?)" type="tel" name="profile[zipcode]" id="profile_zipcode" /></div></div></div><div class="mb-tiny">Moved in the <strong>last 3 months</strong>?</div><div class="accordion mb4 col-12 fs-16p"><div class="accordion-header display-none" role="heading"><div aria-controls="previous-address" aria-expanded="true" class="accordion-header-controls py1 px2 mt-tiny mb-tiny" role="button" tabindex="0"><span class="mb0 mr2">Add previous address</span><img width="16" class="plus-icon display-none" src="/site/18f/identity-ux/assets/plus.svg" alt="Plus" /><img width="16" class="minus-icon display-none" src="/site/18f/identity-ux/assets/minus.svg" alt="Minus" /></div></div><div aria-hidden="true" class="accordion-content clearfix pt1" id="previous-address" role="region"><div class="px2"><fieldset class="mt2 ml0 p0 border-none"><legend class="col-12 my2 pb-tiny border-bottom border-teal">Previous address</legend><div class="mb3 string optional profile_prev_address1"><label class="bold string optional" for="profile_prev_address1">Street address 1</label><input class="block col-12 field string optional" type="text" value="" name="profile[prev_address1]" id="profile_prev_address1" /></div><div class="mb3 string optional profile_prev_address2"><label class="bold string optional" for="profile_prev_address2">Street address 2 (optional)</label><input class="block col-12 field string optional" type="text" value="" name="profile[prev_address2]" id="profile_prev_address2" /></div><div class="mb3 string optional profile_prev_city"><label class="bold string optional" for="profile_prev_city">City</label><input class="block col-12 field string optional" type="text" value="" name="profile[prev_city]" id="profile_prev_city" /></div><div class="clearfix mxn1"><div class="sm-col sm-col-6 px1"><div class="mb3 select optional profile_prev_state"><label class="bold select optional" for="profile_prev_state">State</label><select class="block col-12 field select optional" name="profile[prev_state]" id="profile_prev_state"><option value=""></option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AS">American Samoa</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="AA">Armed Forces Americas</option>
+<option value="AE">Armed Forces Others</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VI">Virgin Islands</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select></div></div><div class="sm-col sm-col-4 px1"><div class="mb3 tel optional profile_prev_zipcode"><label class="bold tel optional" for="profile_prev_zipcode">ZIP Code</label><input class="block col-12 field string tel optional zipcode" value="" pattern="(\d{5}([\-]\d{4})?)" type="tel" name="profile[prev_zipcode]" id="profile_prev_zipcode" /></div></div></div></fieldset></div></div></div></fieldset><fieldset class="m0 p0 border-none"><legend class="col-12 mb3 pb-tiny border-bottom border-teal">Personal details</legend><div class="mb3 tel required profile_dob"><label class="bold tel required" for="profile_dob"><abbr title="required" class="red display-none">*</abbr> Date of birth</label><div id="dob-instructs" class="italic mb1">example: 01/17/1964</div><input class="block col-12 field string tel required dob" value="01/02/1900" aria-describedby="dob-instructs" required="required" aria-required="true" pattern="(0[1-9]|1[012])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4}" type="tel" name="profile[dob]" id="profile_dob" /></div><div class="mb3 tel required profile_ssn"><label class="bold tel required" for="profile_ssn"><abbr title="required" class="red display-none">*</abbr> Social Security Number <span class="hint--top hint--no-animate" aria-label="We ask for your Social Security number to help prove your identity. Some agencies we work with may need it to access your records." tabindex="0"><img width="16" class="px1 img-tooltip" src="/site/18f/identity-ux/assets/tooltip.svg" alt="Tooltip" /></span></label><input class="block col-12 field string tel required ssn" value="666-66-6666" required="required" aria-required="true" pattern="^\d{3}-?\d{2}-?\d{4}$" type="tel" name="profile[ssn]" id="profile_ssn" /></div></fieldset><div class="mt3"><button class="btn btn-primary btn-wide" type="submit">Continue</button></div></form><div class="mt2 pt1 border-top"><form class="button_to" method="get" action="/verify/session"><input class="btn btn-link" id="auth-flow-cancel" type="submit" value="‹ Cancel account verification" /></form><div class="display-none" id="cancel-action-modal"><div class="modal-backdrop"></div><div class="px2 py4 modal" role="dialog"><div class="modal-center"><div class="modal-content"><div class="p3 sm-p4 cntnr-xxskinny border-box bg-white rounded-xxl lg modal-warning"><h3 class="my2 fs-20p sans-serif center">Are you sure you want to cancel?</h3><hr class="mb3 bw4 rounded" /><div class="mb4"><p class="mb1 bold">If you cancel now</p><ul class="px2 yellow-dots"><li class="mb2">We won’t be able to verify your identity</li><li class="mb2">We won&#39;t keep a record of your name, address, birth date, or Social Security number</li><li class="mb2">You won&#39;t be able to securely access your information using login.gov</li><li class="mb2">You’ll still have a login.gov account for your email address</li><li class="mb2">You can manage that account on your profile page</li></ul></div><div class="center"><button class="btn btn-primary col-12 mb2 p2 rounded-lg border-box" id="loa-continue" type="button">Continue identity verification</button><form class="button_to" method="post" action="/verify/session"><input type="hidden" name="_method" value="delete" /><input class="btn col-12 p2 rounded-lg border border-blue blue border-box" type="submit" value="Cancel and return to your profile" /></form></div></div></div></div></div></div><script src="/site/18f/identity-ux/assets/misc/cancel-action-modal.self.js"></script></div><div class="display-none" id="verification-modal"><div class="modal-backdrop"></div><div class="px2 py4 modal" role="dialog"><div class="modal-center"><div class="modal-content"><div class="p3 sm-p4 cntnr-xxskinny border-box bg-white rounded-xxl modal-warning"><h2 class="my2 fs-20p sans-serif regular center">We could not find records matching your personal information.</h2><hr class="mb3 bw4 rounded" /><div class="mb4"><p><p class="">Please check the information you entered. Common mistakes are an incorrect Social Security Number, ZIP Code, or date of birth.</p></p><p>You have <strong>2 attempts remaining.</strong></p></div><div class="center"><button id="js-close-modal" class="btn btn-wide px2 py1 rounded-lg border bw2">Try again</button></div></div></div></div></div></div><script src="/site/18f/identity-ux/assets/misc/verify-modal.self.js"></script><script src="/site/18f/identity-ux/assets/misc/previous-address.self.js"></script></div></div></div><footer class="footer bg-light-blue sm-bg-navy"><div class="sm-hide border-bottom"><div class="container cntnr-wide py1 px2 lg-px0 h5"><div class="i18n-mobile-toggle center"><a class="block text-decoration-none blue fs-13p" aria-expanded="false" href="#"><img width="12" class="mr1" alt="" aria-hidden="true" src="/site/18f/identity-ux/assets/globe-blue.svg" />Language<span aria-hidden="true" class="caret inline-block ml-tiny">&#9662;</span></a></div></div></div><div class="i18n-mobile-dropdown sm-hide display-none"><ul class="list-reset mb0 white center"><li class="border-bottom"><a class="block py-12p px2 text-decoration-none blue fs-13p" href="/en/verify/session/result">English</a></li><li class="border-bottom"><a class="block py-12p px2 text-decoration-none blue fs-13p" href="/es/verify/session/result">Español</a></li><li class="border-bottom"><a class="block py-12p px2 text-decoration-none blue fs-13p" href="/fr/verify/session/result">Français</a></li></ul></div><div class="container py1 px2 lg-px0 sm-py0"><div class="flex flex-center"><div class="flex flex-center"><ul class="list-reset sm-show mb0"><li class="i18n-desktop-toggle flex my1 mr3 relative"><a class="white text-decoration-none border border-blue rounded-lg px1 py-tiny" aria-expanded="false" href="#"><img width="12" class="mr1" alt="" aria-hidden="true" src="/site/18f/identity-ux/assets/globe-white.svg" />Language<span aria-hidden="true" class="caret inline-block ml-tiny">&#9662;</span></a><ul class="i18n-desktop-dropdown list-reset mb0 white display-none"><li class="border-bottom border-navy"><a class="block pl-24p py2 text-decoration-none white" href="/en/verify/session/result">English</a></li><li class="border-bottom border-navy"><a class="block pl-24p py2 text-decoration-none white" href="/es/verify/session/result">Español</a></li><li class="border-bottom border-navy"><a class="block pl-24p py2 text-decoration-none white" href="/fr/verify/session/result">Français</a></li></ul></li></ul><a class="caps h6 blue sm-white text-decoration-none mr3" target="_blank" href="https://www.login.gov/help">Help</a><a class="caps h6 blue sm-white text-decoration-none mr3" target="_blank" href="https://www.login.gov/contact">Contact</a><a class="caps h6 blue sm-white text-decoration-none" target="_blank" href="https://www.login.gov/policy">Privacy &amp; security</a></div><div class="flex flex-auto flex-first"><a class="flex flex-center text-decoration-none white h6" target="_blank" href="https://gsa.gov"><img width="20" class="mr1 sm-show" alt="GSA homepage" src="/site/18f/identity-ux/assets/sp-logos/square-gsa.svg" /><img width="20" class="mr1 sm-hide" alt="GSA homepage" src="/site/18f/identity-ux/assets/sp-logos/square-gsa-dark.svg" /><span class="sm-show">U.S. General Services Administration</span></a></div></div></div></footer><div id="session-timeout-cntnr"></div><script nonce="MC34qVT89APg2YZ1NVi3r3ce609v3lvnLfSrAU8mhIo=">var frequency = 30 * 1000;
+var warning = 150 * 1000;
+var start = 30 * 1000;
+var warning_info = "<div class=\"display-none\" id=\"session-timeout-msg\"><div class=\"modal-backdrop\"><\/div><div class=\"px2 py4 modal\" role=\"dialog\"><div class=\"modal-center\"><div class=\"modal-content\"><div class=\"p3 sm-p4 cntnr-xxskinny border-box bg-white rounded-xxl modal-timeout\"><h2 class=\"my2 fs-20p sans-serif regular center\">Need more time?<\/h2><hr class=\"mb3 bw4 rounded\" /><div class=\"mb4\"><p>For your security, we will sign you out in <span id=\"countdown\">2 minutes and 30 seconds<\/span> unless you tell us otherwise.<\/p><\/div><div class=\"center\"><a class=\"btn btn-primary col-12 mb2 p2 rounded-lg border-box\" href=\"http://www.example.com/verify/session/result\">Keep me signed in<\/a><a class=\"btn col-12 p2 rounded-lg border border-blue blue border-box\" href=\"/api/saml/logout\">Sign me out<\/a><\/div><\/div><\/div><\/div><\/div><\/div>";
+var warningEl = document.getElementById('session-timeout-cntnr');
+warningEl.insertAdjacentHTML('afterbegin', warning_info);
+
+var modal = new window.LoginGov.Modal({ el: '#session-timeout-msg' });
+
+function ping() {
+  var request = new XMLHttpRequest();
+  request.open('GET', '/active', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+
+  request.onload = function() {
+    if (request.status >= 200 && request.status < 400) {
+      success(JSON.parse(request.responseText));
+    }
+  };
+
+  request.send();
+  setTimeout(ping, frequency);
+}
+
+function success(data) {
+  var el = document.getElementById('session-timeout-msg'),
+      cntnr = document.getElementById('session-timeout-cntnr');
+
+  var time_timeout = new Date(data.timeout).getTime(),
+      time_cutoff = new Date().getTime() + warning,
+      show_warning = time_timeout < time_cutoff;
+
+  if (show_warning && !modal.shown) {
+    modal.show();
+    window.LoginGov.countdownTimer(document.getElementById('countdown'), warning);
+  }
+
+  if (!show_warning && modal.shown) modal.hide();
+  if (!data.live) {
+    window.LoginGov.autoLogout();
+  }
+}
+
+setTimeout(ping, start);
+</script></body></html>
